@@ -36,6 +36,7 @@ class dgCollisionHeightField: public dgCollisionMesh
 	{
 		m_float32Bit = 0,
 		m_unsigned16Bit,
+		m_float16Bit
 	};
 
 	enum dgCollisionHeightFieldGridConstruction

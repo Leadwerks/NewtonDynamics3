@@ -149,6 +149,10 @@ void dCustomSliderActuator::SetMinForce(dFloat force)
 
 void dCustomSliderActuator::SubmitAngularRow(const dMatrix& matrix0, const dMatrix& matrix1, dFloat timestep)
 {
+	dFloat mass, ixx, iyy, izz;
+	NewtonBodyGetMass(this->m_body0, &mass, &ixx, &iyy, &izz);
+	if (mass <= 0.0f) return;
+
 	dCustomSlider::SubmitAngularRow(matrix0, matrix1, timestep);
 	if (m_maxForce <= dFloat(0)) return;
 

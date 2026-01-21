@@ -182,6 +182,9 @@
     </ClCompile>
     <ClCompile Include="..\..\dgPhysics\dgBroadPhaseMixed.cpp" />
     <ClCompile Include="..\..\dgPhysics\dgBroadPhaseSegregated.cpp" />
+    <ClCompile Include="..\..\dgPhysics\half.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\dgPhysics\dgBodyMasterList.h">

@@ -35,58 +35,36 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\dgMeshUtil\dgMeshEffect1.cpp" />
-    <ClCompile Include="..\..\dgMeshUtil\dgMeshEffect2.cpp" />
-    <ClCompile Include="..\..\dgMeshUtil\dgMeshEffect3.cpp" />
-    <ClCompile Include="..\..\dgMeshUtil\dgMeshEffect4.cpp" />
-    <ClCompile Include="..\..\dgMeshUtil\dgMeshEffect5.cpp" />
-    <ClCompile Include="..\..\dgMeshUtil\dgMeshEffect6.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgBallConstraint.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgBilateralConstraint.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgBody.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgBodyMasterList.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgBroadPhase.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgBroadPhaseAggregate.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgBroadPhaseMixed.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgBroadPhaseSegregated.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollision.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionBox.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionBVH.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionCapsule.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionChamferCylinder.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionCompound.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionCompoundFractured.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionCone.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionConvex.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionConvexHull.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionConvexPolygon.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionCylinder.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionDeformableMesh.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionDeformableSolidMesh.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionHeightField.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionIncompressibleParticles.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionInstance.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionLumpedMassParticles.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionMassSpringDamperSystem.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionMesh.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionNull.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionScene.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionSphere.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCollisionUserMesh.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgConstraint.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgContact.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgContactSolver.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgCorkscrewConstraint.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgDynamicBody.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgHingeConstraint.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgKinematicBody.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgNarrowPhaseCollision.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgSkeletonContainer.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgSlidingConstraint.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgUniversalConstraint.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgUpVectorConstraint.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgUserConstraint.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgWorld.cpp">
+    <ClCompile Include="..\..\dgCore\dg.cpp" />
+    <ClCompile Include="..\..\dgCore\dgAABBPolygonSoup.cpp" />
+    <ClCompile Include="..\..\dgCore\dgConvexHull3d.cpp" />
+    <ClCompile Include="..\..\dgCore\dgConvexHull4d.cpp" />
+    <ClCompile Include="..\..\dgCore\dgCRC.cpp" />
+    <ClCompile Include="..\..\dgCore\dgDebug.cpp" />
+    <ClCompile Include="..\..\dgCore\dgDelaunayTetrahedralization.cpp" />
+    <ClCompile Include="..\..\dgCore\dgGeneralMatrix.cpp" />
+    <ClCompile Include="..\..\dgCore\dgGeneralVector.cpp" />
+    <ClCompile Include="..\..\dgCore\dgGoogol.cpp" />
+    <ClCompile Include="..\..\dgCore\dgIntersections.cpp" />
+    <ClCompile Include="..\..\dgCore\dgMatrix.cpp" />
+    <ClCompile Include="..\..\dgCore\dgMemory.cpp" />
+    <ClCompile Include="..\..\dgCore\dgMutexThread.cpp" />
+    <ClCompile Include="..\..\dgCore\dgNode.cpp" />
+    <ClCompile Include="..\..\dgCore\dgObb.cpp" />
+    <ClCompile Include="..\..\dgCore\dgPolygonSoupBuilder.cpp" />
+    <ClCompile Include="..\..\dgCore\dgPolygonSoupDatabase.cpp" />
+    <ClCompile Include="..\..\dgCore\dgPolyhedra.cpp" />
+    <ClCompile Include="..\..\dgCore\dgPolyhedraMassProperties.cpp" />
+    <ClCompile Include="..\..\dgCore\dgProfiler.cpp" />
+    <ClCompile Include="..\..\dgCore\dgQuaternion.cpp" />
+    <ClCompile Include="..\..\dgCore\dgRandom.cpp" />
+    <ClCompile Include="..\..\dgCore\dgRef.cpp" />
+    <ClCompile Include="..\..\dgCore\dgRefCounter.cpp" />
+    <ClCompile Include="..\..\dgCore\dgSmallDeterminant.cpp" />
+    <ClCompile Include="..\..\dgCore\dgThread.cpp" />
+    <ClCompile Include="..\..\dgCore\dgThreadHive.cpp" />
+    <ClCompile Include="..\..\dgCore\dgTree.cpp" />
+    <ClCompile Include="..\..\dgCore\dgTypes.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='debug_double|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -96,67 +74,55 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='release_double|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="..\..\dgPhysics\dgWorldDynamicsParallelSolver.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgWorldDynamicsSimpleSolver.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgWorldDynamicUpdate.cpp" />
-    <ClCompile Include="..\..\dgPhysics\dgWorldPlugins.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\dgMeshUtil\dgMeshEffect.h" />
-    <ClInclude Include="..\..\dgPhysics\dgBallConstraint.h" />
-    <ClInclude Include="..\..\dgPhysics\dgBilateralConstraint.h" />
-    <ClInclude Include="..\..\dgPhysics\dgBody.h" />
-    <ClInclude Include="..\..\dgPhysics\dgBodyMasterList.h" />
-    <ClInclude Include="..\..\dgPhysics\dgBroadPhase.h" />
-    <ClInclude Include="..\..\dgPhysics\dgBroadPhaseAggregate.h" />
-    <ClInclude Include="..\..\dgPhysics\dgBroadPhaseMixed.h" />
-    <ClInclude Include="..\..\dgPhysics\dgBroadPhaseSegregated.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollision.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionBox.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionBVH.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionCapsule.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionChamferCylinder.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionCompound.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionCompoundFractured.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionCone.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionConvex.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionConvexHull.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionConvexPolygon.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionCylinder.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionDeformableMesh.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionDeformableSolidMesh.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionHeightField.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionIncompressibleParticles.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionInstance.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionLumpedMassParticles.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionMassSpringDamperSystem.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionMesh.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionNull.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionScene.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionSphere.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCollisionUserMesh.h" />
-    <ClInclude Include="..\..\dgPhysics\dgConstraint.h" />
-    <ClInclude Include="..\..\dgPhysics\dgContact.h" />
-    <ClInclude Include="..\..\dgPhysics\dgContactSolver.h" />
-    <ClInclude Include="..\..\dgPhysics\dgCorkscrewConstraint.h" />
-    <ClInclude Include="..\..\dgPhysics\dgDynamicBody.h" />
-    <ClInclude Include="..\..\dgPhysics\dgHingeConstraint.h" />
-    <ClInclude Include="..\..\dgPhysics\dgKinematicBody.h" />
-    <ClInclude Include="..\..\dgPhysics\dgPhysics.h" />
-    <ClInclude Include="..\..\dgPhysics\dgPhysicsStdafx.h" />
-    <ClInclude Include="..\..\dgPhysics\dgSkeletonContainer.h" />
-    <ClInclude Include="..\..\dgPhysics\dgSlidingConstraint.h" />
-    <ClInclude Include="..\..\dgPhysics\dgUniversalConstraint.h" />
-    <ClInclude Include="..\..\dgPhysics\dgUpVectorConstraint.h" />
-    <ClInclude Include="..\..\dgPhysics\dgUserConstraint.h" />
-    <ClInclude Include="..\..\dgPhysics\dgWorld.h" />
-    <ClInclude Include="..\..\dgPhysics\dgWorldDynamicUpdate.h" />
-    <ClInclude Include="..\..\dgPhysics\dgWorldPlugins.h" />
+    <ClInclude Include="..\..\dgCore\dg.h" />
+    <ClInclude Include="..\..\dgCore\dgAABBPolygonSoup.h" />
+    <ClInclude Include="..\..\dgCore\dgArray.h" />
+    <ClInclude Include="..\..\dgCore\dgConvexHull3d.h" />
+    <ClInclude Include="..\..\dgCore\dgConvexHull4d.h" />
+    <ClInclude Include="..\..\dgCore\dgCRC.h" />
+    <ClInclude Include="..\..\dgCore\dgDebug.h" />
+    <ClInclude Include="..\..\dgCore\dgDelaunayTetrahedralization.h" />
+    <ClInclude Include="..\..\dgCore\dgFastQueue.h" />
+    <ClInclude Include="..\..\dgCore\dgGeneralMatrix.h" />
+    <ClInclude Include="..\..\dgCore\dgGeneralVector.h" />
+    <ClInclude Include="..\..\dgCore\dgGoogol.h" />
+    <ClInclude Include="..\..\dgCore\dgGraph.h" />
+    <ClInclude Include="..\..\dgCore\dgHeap.h" />
+    <ClInclude Include="..\..\dgCore\dgIntersections.h" />
+    <ClInclude Include="..\..\dgCore\dgList.h" />
+    <ClInclude Include="..\..\dgCore\dgMatrix.h" />
+    <ClInclude Include="..\..\dgCore\dgMemory.h" />
+    <ClInclude Include="..\..\dgCore\dgMutexThread.h" />
+    <ClInclude Include="..\..\dgCore\dgNode.h" />
+    <ClInclude Include="..\..\dgCore\dgObb.h" />
+    <ClInclude Include="..\..\dgCore\dgPathFinder.h" />
+    <ClInclude Include="..\..\dgCore\dgPlane.h" />
+    <ClInclude Include="..\..\dgCore\dgPolygonSoupBuilder.h" />
+    <ClInclude Include="..\..\dgCore\dgPolygonSoupDatabase.h" />
+    <ClInclude Include="..\..\dgCore\dgPolyhedra.h" />
+    <ClInclude Include="..\..\dgCore\dgPolyhedraMassProperties.h" />
+    <ClInclude Include="..\..\dgCore\dgProfiler.h" />
+    <ClInclude Include="..\..\dgCore\dgQuaternion.h" />
+    <ClInclude Include="..\..\dgCore\dgRandom.h" />
+    <ClInclude Include="..\..\dgCore\dgRef.h" />
+    <ClInclude Include="..\..\dgCore\dgRefCounter.h" />
+    <ClInclude Include="..\..\dgCore\dgRtti.h" />
+    <ClInclude Include="..\..\dgCore\dgSmallDeterminant.h" />
+    <ClInclude Include="..\..\dgCore\dgSort.h" />
+    <ClInclude Include="..\..\dgCore\dgStack.h" />
+    <ClInclude Include="..\..\dgCore\dgStdafx.h" />
+    <ClInclude Include="..\..\dgCore\dgThread.h" />
+    <ClInclude Include="..\..\dgCore\dgThreadHive.h" />
+    <ClInclude Include="..\..\dgCore\dgTree.h" />
+    <ClInclude Include="..\..\dgCore\dgTypes.h" />
+    <ClInclude Include="..\..\dgCore\dgVector.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{34AD435B-7662-49D5-AF13-5974FEC5F578}</ProjectGuid>
+    <ProjectGuid>{75A4A856-914E-4D41-A28D-23EAF8F8F9C9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>dgPhysics</RootNamespace>
+    <RootNamespace>dgCore</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -164,53 +130,53 @@
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug_double|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug_double|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release_double|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release_double|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -246,33 +212,53 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug_double|Win32'">
     <OutDir>$(Platform)/$(ProjectName)/$(Configuration)\</OutDir>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(Platform)/$(ProjectName)/$(Configuration)\</OutDir>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug_double|x64'">
-    <OutDir>$(Platform)/$(ProjectName)/$(Configuration)\</OutDir>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IntDir>$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
-    <TargetName>$(ProjectName)_d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug_double|Win32'">
     <IntDir>$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug_double|Win32'">
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(Platform)/$(ProjectName)/$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release_double|Win32'">
+    <OutDir>$(Platform)/$(ProjectName)/$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release_double|Win32'">
+    <IntDir>$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release_double|Win32'">
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(Platform)/$(ProjectName)/$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug_double|x64'">
+    <OutDir>$(Platform)/$(ProjectName)/$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IntDir>$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
-    <TargetName>$(ProjectName)_d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug_double|x64'">
     <IntDir>$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <TargetName>$(ProjectName)_d</TargetName>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(Platform)/$(ProjectName)/$(Configuration)\</OutDir>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release_double|Win32'">
-    <OutDir>$(Platform)/$(ProjectName)/$(Configuration)\</OutDir>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug_double|x64'">
+    <TargetName>$(ProjectName)_d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(Platform)/$(ProjectName)/$(Configuration)\</OutDir>
@@ -280,26 +266,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release_double|x64'">
     <OutDir>$(Platform)/$(ProjectName)/$(Configuration)\</OutDir>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IntDir>$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release_double|Win32'">
-    <IntDir>$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IntDir>$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release_double|x64'">
     <IntDir>$(Platform)/$(ProjectName)/$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release_double|x64'">
+    <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WIN_32_VER;DG_USE_PLUGINS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../dgCore;../../dProfiler;../../dgPhysics;../../dgMeshUtil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PrecompiledHeaderFile>dgPhysicsStdafx.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>WIN32;DG_DISABLE_ASSERT;_DEBUG;_LIB;_WIN_32_VER;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>dgStdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../../dProfiler;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeaderOutputFile>$(OutDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -319,9 +305,9 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WIN_32_VER;DG_USE_PLUGINS;_CRT_SECURE_NO_WARNINGS;_NEWTON_USE_DOUBLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../dgCore;../../dProfiler;../../dgPhysics;../../dgMeshUtil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PrecompiledHeaderFile>dgPhysicsStdafx.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WIN_32_VER;_CRT_SECURE_NO_WARNINGS;_NEWTON_USE_DOUBLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>dgStdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../../dProfiler;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeaderOutputFile>$(OutDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -341,9 +327,9 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WIN_64_VER;DG_USE_PLUGINS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../dgCore;../../dProfiler;../../dgPhysics;../../dgMeshUtil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PrecompiledHeaderFile>dgPhysicsStdafx.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>WIN32;DG_DISABLE_ASSERT;_DEBUG;_LIB;_WIN_64_VER;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>dgStdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../../dProfiler;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeaderOutputFile>$(OutDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -364,9 +350,9 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WIN_64_VER;DG_USE_PLUGINS;_CRT_SECURE_NO_WARNINGS;_NEWTON_USE_DOUBLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../dgCore;../../dProfiler;../../dgPhysics;../../dgMeshUtil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PrecompiledHeaderFile>dgPhysicsStdafx.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WIN_64_VER;_CRT_SECURE_NO_WARNINGS;_NEWTON_USE_DOUBLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>dgStdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../../dProfiler;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeaderOutputFile>$(OutDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -388,9 +374,9 @@
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_WIN_32_VER;DG_USE_PLUGINS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../dgCore;../../dProfiler;../../dgPhysics;../../dgMeshUtil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PrecompiledHeaderFile>dgPhysicsStdafx.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>WIN32;DG_DISABLE_ASSERT;NDEBUG;_LIB;_WIN_32_VER;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>dgStdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../../dProfiler;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeaderOutputFile>$(OutDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -414,9 +400,9 @@
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_WIN_32_VER;DG_USE_PLUGINS;_CRT_SECURE_NO_WARNINGS;_NEWTON_USE_DOUBLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../dgCore;../../dProfiler;../../dgPhysics;../../dgMeshUtil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PrecompiledHeaderFile>dgPhysicsStdafx.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_WIN_32_VER;_CRT_SECURE_NO_WARNINGS;_NEWTON_USE_DOUBLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>dgStdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../../dProfiler;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeaderOutputFile>$(OutDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -440,13 +426,14 @@
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_WIN_64_VER;DG_USE_PLUGINS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../dgCore;../../dProfiler;../../dgPhysics;../../dgMeshUtil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PrecompiledHeaderFile>dgPhysicsStdafx.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>WIN32;DG_DISABLE_ASSERT;NDEBUG;_LIB;_WIN_64_VER;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>dgStdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../../dProfiler;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeaderOutputFile>$(OutDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <FloatingPointModel>Fast</FloatingPointModel>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -466,9 +453,9 @@
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_WIN_64_VER;DG_USE_PLUGINS;_CRT_SECURE_NO_WARNINGS;_NEWTON_USE_DOUBLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../dgCore;../../dProfiler;../../dgPhysics;../../dgMeshUtil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PrecompiledHeaderFile>dgPhysicsStdafx.h</PrecompiledHeaderFile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_WIN_64_VER;_CRT_SECURE_NO_WARNINGS;_NEWTON_USE_DOUBLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>dgStdAfx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../../dProfiler;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeaderOutputFile>$(OutDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>

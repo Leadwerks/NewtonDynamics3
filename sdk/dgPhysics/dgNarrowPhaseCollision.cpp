@@ -308,8 +308,9 @@ dgCollisionInstance* dgWorld::CreateHeightField(
 	dgFloat32 verticalScale, dgFloat32 horizontalScale_x, dgFloat32 horizontalScale_z)
 {
 	dgCollision* const collision = new  (m_allocator) dgCollisionHeightField (this, width, height, contructionMode, elevationMap, 
-																			  elevationDataType	? dgCollisionHeightField::m_unsigned16Bit : dgCollisionHeightField::m_float32Bit,	
-																			  verticalScale, atributeMap, horizontalScale_x, horizontalScale_z);
+																			  //elevationDataType	? dgCollisionHeightField::m_unsigned16Bit : dgCollisionHeightField::m_float32Bit,	
+		dgCollisionHeightField::dgElevationType(elevationDataType),
+																				verticalScale, atributeMap, horizontalScale_x, horizontalScale_z);
 	dgCollisionInstance* const instance = CreateInstance (collision, 0, dgGetIdentityMatrix()); 
 	collision->Release();
 	return instance;
